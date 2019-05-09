@@ -9,7 +9,7 @@ nav a {
   float: right;
   font-family: sans-serif;
   font-size: 20px;
-  color: white;
+  color: black;
   padding-top: 20px;
   padding-right: 10px;
   padding-bottom: 10px;
@@ -21,7 +21,7 @@ div.container4 {
   position: relative;
 }
 div.container4 h1 {
-  color: white;
+  color: black;
   margin: 0;
   position: absolute;
   top: 150%;
@@ -31,11 +31,36 @@ div.container4 h1 {
 }
 
 div.container4 h3 {
-  color: white;
+  color: black;
   margin: 0;
   position: absolute;
   top: 110%;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
+}
+
+.myButton {
+  background-color: #ffffff;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  border: 1px solid #dcdcdc;
+  display: inline-block;
+  cursor: pointer;
+  color: #666666;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 11px 33px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #ffffff;
+  position: absolute;
+  top: 400px;
+  left: 550px;
+}
+
+.myButton:active {
+  position: relative;
+  top: 1px;
 }
