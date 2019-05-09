@@ -1,0 +1,41 @@
+body {
+  background-image: url("Blog_Judul-Blog-62.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav a {
+  display: block;
+  float: right;
+  font-family: sans-serif;
+  font-size: 20px;
+  color: white;
+  padding-top: 20px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+
+div.container4 {
+  height: 10em;
+  position: relative;
+}
+div.container4 h1 {
+  color: white;
+  margin: 0;
+  position: absolute;
+  top: 150%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+div.container4 h3 {
+  color: white;
+  margin: 0;
+  position: absolute;
+  top: 110%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
