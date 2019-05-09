@@ -8,8 +8,9 @@ nav a {
   display: block;
   float: right;
   font-family: sans-serif;
-  font-size: 20px;
-  color: black;
+  font-size: 25px;
+  color: rgba(236, 233, 233, 0.986);
+  background-color: rgba(160, 42, 42, 0.986);
   padding-top: 20px;
   padding-right: 10px;
   padding-bottom: 10px;
@@ -21,27 +22,29 @@ div.container4 {
   position: relative;
 }
 div.container4 h1 {
-  color: black;
+  color: rgba(160, 42, 42, 0.986);
+  font-weight: bold;
   margin: 0;
   position: absolute;
-  top: 100%;
+  top: 65%;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
 }
 
 div.container4 h3 {
-  color: black;
+  color: rgba(160, 42, 42, 0.986);
+  font-weight: bolder;
   margin: 0;
   position: absolute;
-  top: 50%;
+  top: 0%;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
 }
 
 .myButton {
-  background-color: #ffffff;
+  background-color: rgba(160, 42, 42, 0.986);
   -moz-border-radius: 6px;
   -webkit-border-radius: 6px;
   border-radius: 6px;
@@ -56,7 +59,7 @@ div.container4 h3 {
   text-decoration: none;
   text-shadow: 0px 1px 0px #ffffff;
   position: absolute;
-  top: 300px;
+  top: 200px;
   left: 550px;
 }
 
@@ -75,6 +78,7 @@ div.container4 h3 {
 .footer-classic a:focus,
 .footer-classic a:active {
   color: #ffffff;
+  background-color: rgba(160, 42, 42, 0.986);
 }
 .nav-list li {
   padding-top: 5px;
@@ -103,6 +107,7 @@ ol {
   font: 900 13px/1 "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, sans-serif;
   text-transform: uppercase;
+  background-color: rgba(153, 11, 11, 0.986);
   color: rgba(255, 255, 255, 0.5);
 }
 .social-container .col {
@@ -111,7 +116,6 @@ ol {
 .nav-list li a:before {
   content: "\f14f";
   font: 400 21px/1 "Material Design Icons";
-
   display: inline-block;
   vertical-align: baseline;
   margin-left: -28px;
