@@ -3,7 +3,7 @@
 ## Aahaar  Deluxe
 
 ### What?
-I made a other version of [I'm an inline-style link](http://www.aahaar.com/)
+I made a other version of [http://www.aahaar.com/](http://www.aahaar.com/)
 I used html & css with a little bit of bootstrap
 
 ##### A chronologically list what I did
